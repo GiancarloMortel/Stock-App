@@ -1,0 +1,46 @@
+﻿/*
+    selectable company
+*/
+.companyButton {
+    height: 2.5em;
+    min-width: 100%;
+    border-radius: 0px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #03dac6;
+    border-color: #03dac6;
+    font-weight: 900;
+}
+
+    .companyButton:hover {
+        background-color: #018786;
+        border-color: #018786;
+    }
+
+.companyButton-input {
+    display: none;
+}
+/*
+    loading company div
+*/
+.companyLoading {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d47a1;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+/*
+    company not found div
+*/
+.companyNotFound {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b00020;
+    color: #ffffff;
+    font-weight: 900;
+}

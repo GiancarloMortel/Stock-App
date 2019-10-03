@@ -1,0 +1,57 @@
+﻿/*
+    top area showing name
+*/
+.stock-top {
+    background-color: #6200ee;
+    color: #ffffff;
+}
+
+/*
+    bottom area showing stock details
+*/
+.stock-bottom {
+    background-color: #263238;
+    color: #ffffff;
+}
+
+/*
+    individual row containing company information
+*/
+.companyinfo {
+    height: 2.5em;
+}
+
+    .companyinfo div {
+        width: 100%;
+    }
+
+/*
+    company information
+*/
+.companyinfo-center {
+    justify-content: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-weight: 500;
+    margin: auto;
+}
+
+    .companyinfo-center div {
+        padding: 0px;
+        margin: auto;
+    }
+
+/*
+    targets stock symbol
+*/
+.stock-symbol {
+    padding-top: 0.25em;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+/*
+    targets stock name
+*/
+.stock-name {
+}

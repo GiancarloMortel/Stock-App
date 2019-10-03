@@ -1,0 +1,66 @@
+﻿@model Stock_App.Models.StockInfo.Rootobject
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="stock-top">
+                <div class="row companyinfo companyname">
+                    <div class="col-12 d-flex justify-content-center stock-symbol">
+                        <strong>@Model.data[0].symbol</strong>
+                    </div>
+                </div>
+                <div class="row companyinfo companyname">
+                    <div class="col-12 d-flex justify-content-center stock-name">
+                        <strong>@Model.data[0].name</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="stock-bottom">
+                <div class="row companyinfo companyinfo-center">
+                    <div class="col-6 d-flex justify-content-start">
+                        <strong>PRICE</strong>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        @Model.data[0].price
+                    </div>
+                </div>
+                <div class="row companyinfo companyinfo-center">
+                    <div class="col-6 d-flex justify-content-start">
+                        <strong>CURRENCY</strong>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        @Model.data[0].currency
+                    </div>
+                </div>
+                <div class="row companyinfo companyinfo-center">
+                    <div class="col-6 d-flex justify-content-start">
+                        <strong>PRICE OPEN</strong>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        @Model.data[0].price_open
+                    </div>
+                </div>
+                <div class="row companyinfo companyinfo-center">
+                    <div class="col-6 d-flex justify-content-start">
+                        <strong>DAY HIGH</strong>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        @Model.data[0].day_high
+                    </div>
+                </div>
+                <div class="row companyinfo companyinfo-center">
+                    <div class="col-6 d-flex justify-content-start">
+                        <strong>DAY LOW</strong>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        @Model.data[0].day_low
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    background-color: #e5e5e5;
+    padding-top: 5em;
+}
+
+.appbox {
+    padding: 0px;
+    margin: auto;
+}
+
+.container {
+    padding: 0px;
+}
+
+.input-div {
+    flex: 2;
+}
+
+.input-box {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #ffffff;
+    border: 0px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.input-button {
+    flex: 1;
+    width: 100%;
+    background-color: #3700b3;
+    border: 0px;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: 900;
+}
+
+.searchbar {
+    display: flex;
+    height: 2.5em;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .appbox {
+        width: 430px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,9 @@
+﻿.stockNotFound {
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b00020;
+    color: #ffffff;
+    font-weight: 900;
+}

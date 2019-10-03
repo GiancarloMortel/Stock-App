@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Stock_App.Models.symbols_>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="companyList" class="container">
+    @foreach (var items in Model)
+    {
+        <div class="row flex-column">
+            <div class="col-12">
+                <form action="~/home/stock" method="get">
+                    <input class="companyButton-input" type="text" name="ticker" value="@items.Symbol" />
+                    <button class="btn btn-primary companyButton">@items.Name</button>
+                </form>
+            </div>
+        </div>
+    }
+</div>
